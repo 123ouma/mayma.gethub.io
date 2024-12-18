@@ -1,0 +1,183 @@
+
+header{
+    background-color: rgb(231, 189, 216);
+    margin-top: 25pt;
+    text-align: center;
+    border-radius: 100px;
+   
+} 
+.nav {
+        width: 100%;
+        height: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        font-family: sans-serif;
+    }
+    
+
+
+
+.nav a{
+    width: 150px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    display:inline-block ; /*kan  ma kafahouch star yrja3*/
+    border : 1px solid #cd9fff  ;
+    border-radius: 10px;
+    background-color: #e4dde6;
+
+}
+.image{ 
+box-shadow: 4px 6px rgb(189, 169, 194);
+border-radius: 120px ;
+float: left;
+}
+.image:hover{
+    transform: scale(1.05); /* Agrandit légèrement l'image */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Ombre plus intense */
+}
+body{
+    background-color: mistyrose;
+
+    transition: background-color 0.5s ease;
+    background-image: linear-gradient(to top ,#ac568b,#d978b1,#eb97ca,#fbb3db,#e7aad2,#f8d3ec);
+}
+
+h1{
+    text-align: center;
+    color: rgb(127, 23, 168);
+   padding: 12px;
+   margin: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  
+}
+.bio{
+    font-weight: bold;
+    font-family: cursive;
+    border: 3px solid  #cd9fff ;
+    background-color: #d0c2d2; 
+    border-radius: 50px;
+    padding: 25pt;
+    padding-bottom: 15pt;
+    
+}
+.phrase{
+    text-align: center;
+    color: rgb(111, 19, 77);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 60px;
+}
+
+#bien{
+    text-align:  center;
+
+}
+
+
+.adresse{
+    text-align: right;
+    font-size: 12px;
+    padding-right: 25px;
+    background-color: #ac568b;
+}
+.image1{
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 250px;
+}
+
+
+
+.photo{
+    float : right;
+    margin-right: 250pt;
+    margin-left: 150pt ;
+}
+.photo:hover{
+    transform: scale(1.3);
+
+}
+
+.specialite{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15pt;
+
+}
+h3{ font-weight: bolder;
+color: rgb(199, 21, 98);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+align-items: center;
+font-style: italic;
+margin-left: 100pt;
+margin-right: 100pt;
+
+}
+.espace {
+    margin-left: 100pt;
+    margin-right: 100pt;
+    border-radius: 30px;
+  
+
+        
+}
+.espace:hover {
+    transform: scale(1.05); /* Agrandit légèrement l'image */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Ombre plus intense */
+}
+
+h2{
+    font-weight: bolder;
+color: rgba(255, 255, 255, 0.655);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+align-items: center;
+font-style: italic;
+margin-left: 200pt;
+margin-right: 150pt;
+}
+.titre{
+    color: midnightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+
+}
+.home{
+    border-radius: 30px;
+}
+@media (max-width: 1000px) {
+    header,.nav,footer,section,body ,.adresse,* {
+      background-color: #2e071e;
+       /* couleur de fond pour les écrans de moins de 1000px */
+      
+    }
+    
+    #bien,.phrase,h1,h3,.adresse,p{
+        color:white;
+    }
+    .nav a {
+        width: auto; /* Ajuste automatiquement la largeur des boutons */
+        font-size: 14px; /* Réduit légèrement la taille de police */
+    }
+
+    .espace {
+        margin-left: 1pt;
+        margin-right: 70pt;       
+    }
+   
+
+    h3, h2 {
+        margin: 10px; /* Réduit les marges pour écrans réduits */
+  }
+  #ti,#em,#no,#con{
+    color: white;
+  }
+}

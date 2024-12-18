@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  height: 100vh; /* Assure que le body occupe toute la hauteur de l'écran */
+  background-image: linear-gradient(to top, #ac568b, #d978b1, #eb97ca, #fbb3db, #e7aad2, #f8d3ec);
+  background-repeat: no-repeat; /* Empêche la répétition du fond */
+  background-attachment: fixed; /* Le fond reste fixe même quand on scrolle */
+  background-size: cover; /* Le fond couvre tout l'écran */
+  background-color: mistyrose;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(127, 23, 168);
+  padding: 12px;
+  margin: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  background-color: rgb(231, 189, 216);
+ 
+  text-align: center;
+  border-radius: 100px;
+  margin-left: auto; /* Centre le header horizontalement */
+  margin-right: auto;
+}
+.adresse{
+  text-align: right;
+  font-size: 12px;
+  padding-right: 25px;
+  background-color: #ac568b;
+}
+.home{
+  border-radius: 30px;
+}
+.question {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #b37a7a;
+  border-radius: 5px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #6e43ab;
+  color: rgb(253, 246, 246);
+  border: #6e43ab;
+  border-radius: 15%;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+
+}
+
+#score {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: large;
+  color: rgb(167, 46, 96);
+  text-align:center ;
+}
+@media (max-width: 1000px) {
+  header,.nav,footer,section,body .adresse,* {
+    background-color: #2e071e;
+    
+  }
+  
+  h1,h3,.adresse,p,.question{
+      color:white;
+  }
+
+
+  h3, h2 {
+      margin: 10px; /* Réduit les marges pour écrans réduits */
+}
+}

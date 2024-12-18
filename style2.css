@@ -1,0 +1,97 @@
+body{
+    background-color: mistyrose;
+
+    background-image: linear-gradient(to top ,#ac568b,#d978b1,#eb97ca,#fbb3db,#e7aad2,#f8d3ec);}
+h1{
+    text-align: center;
+    color: rgb(127, 23, 168);
+   padding: 12px;
+   margin: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  
+}
+header{
+    background-color: rgb(231, 189, 216);
+    margin-top: 25pt;
+    text-align: center;
+    border-radius: 100px;
+   
+}
+.filter-container {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .filter-btn {
+    background: #e4b2de;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .subjects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .subject-card {
+    background: #eeddeb;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .subject-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  .home{
+    border-radius: 30px;
+}
+.adresse{
+    text-align: right;
+    font-size: 12px;
+    padding-right: 25px;
+    background-color: #ac568b;
+}
+@media (max-width: 1000px) {
+  header,.nav,footer,section,body ,.adresse,* {
+    background-color: #2e071e;
+     /* couleur de fond pour les écrans de moins de 1000px */
+    
+  }
+  
+  #bien,.phrase,h1,h3,h2,.adresse,p{
+      color:white;
+  }
+  .nav a {
+      width: auto; /* Ajuste automatiquement la largeur des boutons */
+      font-size: 14px; /* Réduit légèrement la taille de police */
+  }
+
+  p,h2{
+    background-color: #9e7799 ;
+  }
+} 

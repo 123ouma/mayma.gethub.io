@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quiz</title>
+    <link rel="stylesheet" href="quiz.css" />
+  </head>
+  <body>
+    <header><h1>__Quiz__</h1></header>
+    <section>
+        <h2>Bienvenue dans ce quiz interactif dédié au HTML et au CSS ! Testez vos connaissances en développement web et découvrez si vous maîtrisez les bases pour créer des pages stylées et fonctionnelles. Prêt à relever le défi ? 🚀
+
+        </h2>
+    <div class="question">
+      <h3>Question 1:</h3>
+      <p>Quelle balise HTML est utilisée pour créer un lien hypertexte?</p>
+      <input type="radio" name="q1" value="a"  class="q"/> la balise link <br />
+      <input type="radio" name="q1" value="b" class="q"/> la balise a<br />
+      <input type="radio" name="q1" value="c"class="q" /> la balise href<br />
+    </div>
+
+    <div class="question">
+      <h3>Question 2:</h3>
+      <p>Quelle propriété CSS est utilisée pour changer la couleur du texte?</p>
+      <input type="radio" name="q2" value="a" class="q"/> text-color<br />
+      <input type="radio" name="q2" value="b" class="q"/> font-color<br />
+      <input type="radio" name="q2" value="c" class="q"/> color<br />
+    </div>
+
+    <div class="question">
+      <h3>Question 3:</h3>
+      <p>Comment sélectionner un élément avec l'id "header" en CSS?</p>
+      <input type="radio" name="q3" value="a" class="q"/> #header<br />
+      <input type="radio" name="q3" value="b" class="q"/> .header<br />
+      <input type="radio" name="q3" value="c" class="q"/> header<br />
+    </div>
+
+    <div class="question">
+      <h3>Question 4:</h3>
+      <p>Quelle balise HTML est utilisée pour créer une liste non ordonnée?</p>
+      <input type="radio" name="q4" value="a"class="q" />  la balise ol<br />
+      <input type="radio" name="q4" value="b"class="q" /> la balise ul<br />
+      <input type="radio" name="q4" value="c" class="q"/>la balise li<br />
+    </div>
+
+    <div class="question">
+      <h3>Question 5:</h3>
+      <p>
+        Quelle propriété CSS est utilisée pour changer la taille de la police?
+      </p>
+      <input type="radio" name="q5" value="a" class="q"/> text-size<br />
+      <input type="radio" name="q5" value="b" class="q"/> font-size<br />
+      <input type="radio" name="q5" value="c" class="q"/> size<br />
+    </div>
+
+    <div class="question">
+      <h3>Question 6:</h3>
+      <p>Comment centrer un élément horizontalement en CSS?</p>
+      <input type="radio" name="q6" value="a"class="q" /> margin: center;<br />
+      <input type="radio" name="q6" value="b" class="q"/> margin: auto;<br />
+      <input type="radio" name="q6" value="c" class="q"/> align: center;<br />
+    </div>
+
+    <div class="question">
+      <h3>Question 7:</h3>
+      <p>Quelle balise HTML est utilisée pour créer un paragraphe?</p>
+      <input type="radio" name="q7" value="a"class="q" />  la balise paragraph<br />
+      <input type="radio" name="q7" value="b" class="q"/>  la balise text<br />
+      <input type="radio" name="q7" value="c"class="q" /> la balise p<br />
+    </div>
+
+    <div class="question">
+      <h3>Question 8:</h3>
+      <p>Comment ajouter un commentaire en CSS?</p>
+      <input type="radio" name="q8" value="a"class="q" /> // commentaire<br />
+      <input type="radio" name="q8" value="b" class="q"/> /* commentaire */<br />
+      <input type="radio" name="q8" value="c"class="q" /> !-- commentaire--! <br />
+    </div>
+
+    <div class="question">
+      <h3>Question 9:</h3>
+      <p>Quelle propriété CSS est utilisée pour changer l'arrière-plan?</p>
+      <input type="radio" name="q9" value="a" class="q"/> background-color<br />
+      <input type="radio" name="q9" value="b" class="q"/> bgcolor<br />
+      <input type="radio" name="q9" value="c" class="q"/> color-background<br />
+    </div>
+
+    <div class="question">
+      <h3>Question 10:</h3>
+      <p>Comment définir une bordure en CSS?</p>
+      <input type="radio" name="q10" value="a" class="q"/> border: 1px solid black;<br />
+      <input type="radio" name="q10" value="b" class="q" /> border-line: 1px black;<br />
+      <input type="radio" name="q10" value="c" class="q"/> border-style: 1px solid;<br />
+    </div>
+
+    <button onclick="verifierReponses()">Voir mon score</button>
+    <div id="score"></div>
+</section>
+
+    <hr />
+
+    <footer>
+      <div class="adresse">
+        route manzel cheker <br />
+        klm2.5 <br />
+        sfax<br />
+        <a href="bouazizoumayma86@gmail.com"> bouazizoumayma86@gmail.com</a>
+        <br />
+        <a href="page d’accueil .html"
+          ><img
+            class="home"
+            src="images/home.png"
+            alt="home"
+            width="50"
+            height="50"
+        /></a>
+      </div>
+    </footer>
+    <script src="quiz.js"></script>
+  </body>
+</html>
